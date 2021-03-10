@@ -1,0 +1,128 @@
+:root{
+    --primary-color: #85dcb8;
+    --header-color: #41b3a3;
+    --text-color:#e27d60;
+    --border-color:#e8a87C;
+    --shadow-color:#C38d9e;
+
+    
+}
+
+/* body{
+    background: url(https://miro.medium.com/max/3960/0*HICLyAdNSIyT0ODU.jpg)no-repeat 0% 50%;
+
+} */
+.main-menu{
+    background-color:var(--header-color);
+    color: var(--text-color);
+
+}
+
+.li{
+    background-color:var(--primary-color);
+}
+
+/* end nav area */
+
+/* Banner Area */
+.site-main .site-banner {
+    background: url(https://miro.medium.com/max/3960/0*HICLyAdNSIyT0ODU.jpg)no-repeat 0% 50%;
+    
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+    content:"";
+    height:2px;
+    width: 18vw;
+    background:black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main.site-banner.site-title h4{
+    font-size: 1.5rem;
+}
+.site-main.site-banner.banner-image>img{
+    padding: 7rem;
+    width: 90rem;
+}
+.resize {
+    width: 400;
+    height: auto;
+}
+
+.button {
+    padding: .8rem 2.2rem;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button {
+    background: var(--primary-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--shadow-color);
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color:black;
+}
+    
+.button.primary-button::after{
+    position: absolute;
+    top: -2px; left:-2px;
+    bottom: -2px; right: -2px;
+    background: var(--primary-color);
+    content:'';
+    z-index: -1;
+    border-radius: 4px;
+
+}
+
+.button .secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+
+}
+
+.button .secondary-button{
+    background: var(--border-color);
+    color: whitesmoke;
+    box-shadow: var(--shadow-color);
+}
+  
+
+/* End Banner Area */
+
+ /* Start About Area */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 50px /60px;
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph >p{
+    padding: .4rem 0;
+
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/25px;
+}
+ /* End About Area */
