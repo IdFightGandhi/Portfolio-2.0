@@ -31,7 +31,8 @@
 }
 .banner-image{
     width: 600px;
-    height: 400px;
+    margin-top: 85px;
+
 }
 .site-main .site-banner .site-title h3{
     padding-top: 15%;
@@ -147,7 +148,7 @@ p.para{
 
 }
 
-.site-main.brand-area.first-row.col-lg-4 > .single-brand{
+.single-brand{
     border: 1px solid var(--border-color);
     text-align: center;
     padding: 1.8rem 0rem;
@@ -162,9 +163,12 @@ p.para{
     width: 50%;
 }
 
-.site-main.brand-area.first-row.col-lg-4 > .single-brand:hover{
+.single-brand:hover{
 
 box-shadow: var(--shadow-color);
 
 }
- /* End Brand rea */
+
+
+
+ /* End Brand area */
