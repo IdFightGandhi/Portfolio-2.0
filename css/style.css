@@ -172,3 +172,27 @@ box-shadow: var(--shadow-color);
 
 
  /* End Brand area */
+
+ /* Projects Area */
+
+.projects-area {
+    padding: 7rem 2rem;
+}
+.projects-title {
+    padding: 0 14;rem;
+}
+.projects-title h1{
+    font-size: 35px;
+}
+.projects{
+    background-color:rgba(248,252, 253, 0.973);
+    padding:2rem, 0;
+    width: 16rem;
+    margin:5rem, .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.projects:hover{
+    box-shadow:var(--shadow-color)
+}
+ /* End Projects Area */
