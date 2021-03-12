@@ -193,6 +193,8 @@ box-shadow: var(--shadow-color);
 }
 
 .projects:hover{
-    box-shadow:var(--shadow-color)
+    /* background:violet; */
+    box-shadow: 5px 5px 2px var(--shadow-color) ;
+    color: white;
 }
  /* End Projects Area */
