@@ -7,11 +7,9 @@
 
     
 }
-
-/* body{
-    background: url(https://miro.medium.com/max/3960/0*HICLyAdNSIyT0ODU.jpg)no-repeat 0% 50%;
-
-} */
+body{
+    font-family: geo;
+}
 .main-menu{
     background-color:var(--header-color);
     color: var(--text-color);
@@ -103,12 +101,6 @@
 
 }
 
-.button .secondary-button{
-    background: var(--border-color);
-    color: whitesmoke;
-    box-shadow: var(--shadow-color);
-}
-  
 
 /* End Banner Area */
 
@@ -134,9 +126,9 @@ p.para{
     font: normal 500 16px/25px;
 }
 
-#resume-button{
 
-}
+
+
  /* End About Area */
 
  /* Start Brand Area */
@@ -202,7 +194,7 @@ box-shadow: var(--shadow-color);
 .projects:hover{
     /* background:violet; */
     box-shadow: 5px 5px 2px var(--shadow-color) ;
-    color: white;
+    color: (var --text-color);
 }
 
 #card-image1{
