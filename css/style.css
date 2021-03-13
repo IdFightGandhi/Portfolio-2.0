@@ -183,7 +183,10 @@ box-shadow: var(--shadow-color);
     padding: 7rem 2rem;
 }
 .projects-title {
-    padding: 0 14;rem;
+    padding: 0 14rem;
+}
+.card-title{
+    padding-top: 20px;
 }
 .projects-title h1{
     font-size: 35px;
@@ -200,6 +203,20 @@ box-shadow: var(--shadow-color);
     /* background:violet; */
     box-shadow: 5px 5px 2px var(--shadow-color) ;
     color: white;
+}
+
+#card-image1{
+    max-width: 200px;
+    height: 150px;
+    padding-bottom: 45px;
+}
+#card-image2{
+    max-width: 200px;
+    height: 130px;
+}
+#card-image3{
+    max-width: 200px;
+    height: 130px;
 }
  /* End Projects Area */
 /* Footer Area */
