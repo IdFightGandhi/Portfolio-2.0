@@ -133,6 +133,10 @@ p.para{
     color: var(--text-color);
     font: normal 500 16px/25px;
 }
+
+#resume-button{
+
+}
  /* End About Area */
 
  /* Start Brand Area */
@@ -198,3 +202,28 @@ box-shadow: var(--shadow-color);
     color: white;
 }
  /* End Projects Area */
+/* Footer Area */
+
+footer .footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+
+}
+
+footer .social h5{
+    font: normal 500 23px/30px;
+
+}
+
+.social a > i{
+    font-size: 40px;
+    padding: 2rem;
+    color: var(--primary-color);
+
+
+}
+
+.social a > i:hover{
+    color: var(--shadow-color);
+}
+/* End Footer Area */
