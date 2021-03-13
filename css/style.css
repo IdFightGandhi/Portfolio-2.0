@@ -1,14 +1,15 @@
 :root{
     --primary-color: #85dcb8;
-    --header-color: #41b3a3;
-    --text-color:#e27d60;
-    --border-color:#e8a87C;
-    --shadow-color:#C38d9e;
+    --header-color: #17A6A6;
+    --text-color:#0d0d0d;
+    --border-color:#96D9D9;
+    --shadow-color:#0E5959;
 
     
 }
 body{
     font-family: geo;
+    background:whitesmoke;
 }
 .main-menu{
     background-color:var(--header-color);

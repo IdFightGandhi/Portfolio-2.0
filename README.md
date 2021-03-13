@@ -1,19 +1,17 @@
 # Portfolio-2.0
 Updated portfolio site for March
-1. Display your full name, email, and phone number
+This is the second iteration of my personal portfolio page.
 
-2. Have links to your GitHub profile and LinkedIn profile
+This page is made using HTML and CSS although I intend to expand functionality with Javascript functions and advanced CSS including a carousel.
 
-3. Have a link to a downloadable PDF of your resume
+Description- The website is a portfolio of my work history. Sections included are:
 
-4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
+    Home
+    About Me
+    Projects
+    Resume
+    Additional Links
 
-    * Project title
+The About Me section provides information about my current experience as a student. Projects include my first group project and the second one is a weather dashboard I did for homework. The following section is a link to my resume as a pdf file (just click the file icon and you will be directed to my resume), which also includes my contact info. The last section is the footer with two icons, LinkedIn and GitHub, when you click the icons you will be direct to the my profile website.
 
-    * Link to the deployed version
-
-    * Link to the GitHub repository
-
-    * Screenshot of the deployed application
-
-5. Have a polished, mobile-responsive user interface.
+![Site Image](./img/site-image.png)
