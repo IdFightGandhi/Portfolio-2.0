@@ -1,6 +1,6 @@
-# Portfolio-2.0
-Updated portfolio site for March
-This is the second iteration of my personal portfolio page.
+# Portfolio-3.0
+Updated portfolio site for April
+This is the third iteration of my personal portfolio page.
 
 This page is made using HTML and CSS although I intend to expand functionality with Javascript functions and advanced CSS including a carousel.
 
